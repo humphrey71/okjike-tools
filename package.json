@@ -25,7 +25,8 @@
   },
   "manifest": {
     "host_permissions": [
-      "https://*/*"
+      "https://m.okjike.com/*",
+      "https://web.okjike.com/*"
     ],
     "permissions": [
       "tabs"

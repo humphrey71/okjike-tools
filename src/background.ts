@@ -1,2 +1,5 @@
 export {}
-console.log("HELLO WORLD FROM BGSCRIPTS")
+
+chrome.action.onClicked.addListener((tab) => {
+  chrome.tabs.create({ url: "https://web.okjike.com" });
+});
