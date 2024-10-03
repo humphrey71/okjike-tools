@@ -1,3 +1,18 @@
+# Okjike Tools  
+一个用于 okjike.com 的浏览器扩展，主要功能是将即刻手机版页面重定向到桌面版网站。
+## 功能列表
+- 将手机版页面重定向到桌面版网站
+  - 将 `https://m.okjike.com` \ `https://okjike.com` \ `http://okjike.com` 重定向到 `https://web.okjike.com`
+  - 将 `/originalPosts` 重定向到 `/originalPost`
+  - 将 `/topics` 重定向到 `/topic`
+  - 将 `/users` 重定向到 `/u`
+- 鼠标悬停到`...`按钮时显示收藏按钮
+- 点击插件图标打开即刻网页版主页
+
+欢迎提 [issue](https://github.com/humphrey-liu/okjike-tools/issues) 或 [pull request](https://github.com/humphrey-liu/okjike-tools/pulls)。
+
+-----
+
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
 ## Getting Started

@@ -2,10 +2,8 @@ import type { PlasmoCSConfig } from "plasmo"
 
 export const config: PlasmoCSConfig = {
     run_at: "document_start",
-    matches: ["https://m.okjike.com/*"]
+    matches: ["http://okjike.com/*", "https://okjike.com/*", "https://m.okjike.com/*"]
 }
-
-
 
 const mUrl = "https://m.okjike.com"
 const webUrl = "https://web.okjike.com"

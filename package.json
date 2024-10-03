@@ -25,6 +25,8 @@
   },
   "manifest": {
     "host_permissions": [
+      "http://okjike.com/*",
+      "https://okjike.com/*",
       "https://m.okjike.com/*",
       "https://web.okjike.com/*"
     ],
