@@ -5,9 +5,6 @@ export const config: PlasmoCSConfig = {
     matches: ["http://okjike.com/*", "https://okjike.com/*", "https://m.okjike.com/*"]
 }
 
-const mUrl = "https://m.okjike.com"
-const webUrl = "https://web.okjike.com"
-
 const currentPath = window.location.pathname;
 let redirectPath: string;
 if (currentPath.startsWith("/originalPosts")) {
@@ -21,6 +18,5 @@ if (currentPath.startsWith("/originalPosts")) {
 }
 
 if (redirectPath) {
-    console.log("redirect to", `${webUrl}${redirectPath}`)
-    window.location.href = window.location.href.replace(`${mUrl}${currentPath}`, `${webUrl}${redirectPath}` )
+    window.location.href = window.location.href.replace(`${window.location.origin}${currentPath}`, `https://web.okjike.com${redirectPath}` )
 }
